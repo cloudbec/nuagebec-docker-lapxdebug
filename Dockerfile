@@ -17,7 +17,8 @@ RUN apt-get update && \
 	php5-mcrypt \
         php-mail \
         mysql-client \
-        php-apc 
+        php-apc \
+        php5-dev \ 
 	php-pear && \
     rm -rf /var/lib/apt/lists/*
 
